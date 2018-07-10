@@ -20,15 +20,15 @@
 # ```
 # Try starting out with puts'ing a string.
 
-puts Who are you sending the invitation to?
+puts "Who are you sending the invitation to?"
 guest_name = gets.chomp
-puts What is the party?
+puts "What is the party?"
 party_name = gets.chomp
-puts When is the party?
+puts "When is the party?"
 date = gets.chomp
-puts What time is the party?
+puts "What time is the party?"
 time = gets.chomp
-puts Who is the host of the party?
+puts "Who is the host of the party?"
 host_name = gets.chomp
 
 Dear #{guest_name},
