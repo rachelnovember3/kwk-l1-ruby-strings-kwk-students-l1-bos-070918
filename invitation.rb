@@ -23,4 +23,5 @@
 
 guest_name = gets.chomp
 party_name = gets.chomp
-
+date = gets.chomp
+time =
