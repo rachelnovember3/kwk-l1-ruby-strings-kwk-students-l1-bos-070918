@@ -31,9 +31,9 @@ time = gets.chomp
 puts "Who is the host of the party?"
 host_name = gets.chomp
 
-puts "Dear #{guest_name},"
+puts "Dear #{guest_name},
 
-"You are cordially invited to #{party name} on #{date} at #{time}. Please RSVP no later than October 30."
+You are cordially invited to #{party name} on #{date} at #{time}. Please RSVP no later than October 30.
 
-"Sincerely,
+Sincerely,
 #{host_name}"
