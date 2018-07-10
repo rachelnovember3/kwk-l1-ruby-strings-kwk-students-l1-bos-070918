@@ -19,3 +19,8 @@ Sincerely,
 Harry Potter
 ```
 # Try starting out with puts'ing a string.
+
+
+guest_name = gets.chomp
+party_name = gets.chomp
+
