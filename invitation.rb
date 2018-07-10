@@ -20,8 +20,21 @@
 # ```
 # Try starting out with puts'ing a string.
 
-puts Who are you sending the 
+puts Who are you sending the invitation to?
 guest_name = gets.chomp
+puts What is the party?
 party_name = gets.chomp
+When is the party?
 date = gets.chomp
-time =
+What time is the party?
+time = gets.chomp
+Who is the host of the party?
+host_name = gets.chomp
+
+Dear #{guest_name},
+
+You are cordially invited to #{party name} on #{date} at #{time}. Please RSVP no later than October 30.
+
+Sincerely,
+
+#{host_name}
