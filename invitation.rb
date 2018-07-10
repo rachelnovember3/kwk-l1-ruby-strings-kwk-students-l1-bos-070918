@@ -32,6 +32,8 @@ puts "Who is the host of the party?"
 host_name = gets.chomp
 
 "Dear #{guest_name},"
+
 "You are cordially invited to #{party name} on #{date} at #{time}. Please RSVP no later than October 30."
+
 "Sincerely,
 #{host_name}"
