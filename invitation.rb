@@ -20,7 +20,7 @@
 # ```
 # Try starting out with puts'ing a string.
 
-
+puts Who are you sending the 
 guest_name = gets.chomp
 party_name = gets.chomp
 date = gets.chomp
