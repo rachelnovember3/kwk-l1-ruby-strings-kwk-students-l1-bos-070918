@@ -36,4 +36,4 @@ puts "Dear #{guest_name},
 You are cordially invited to #{party name} on #{date} at #{time}. Please RSVP no later than October 30.
 
 Sincerely,
-#{host_name}"
+#{host_name}""
