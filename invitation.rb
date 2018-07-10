@@ -24,17 +24,14 @@ puts Who are you sending the invitation to?
 guest_name = gets.chomp
 puts What is the party?
 party_name = gets.chomp
-When is the party?
+puts When is the party?
 date = gets.chomp
-What time is the party?
+puts What time is the party?
 time = gets.chomp
-Who is the host of the party?
+puts Who is the host of the party?
 host_name = gets.chomp
 
 Dear #{guest_name},
-
 You are cordially invited to #{party name} on #{date} at #{time}. Please RSVP no later than October 30.
-
 Sincerely,
-
 #{host_name}
